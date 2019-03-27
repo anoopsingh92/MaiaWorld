@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="4.-TEACHER-PROFILE-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.0.Teacher-profile---desktop" transform="translate(-713.000000, -545.000000)">
+            <g id="icon-/-chat" transform="translate(711.000000, 543.000000)">
+                <g id="icon-35x35-05">
+                    <g id="Group" transform="translate(2.742857, 2.742857)" stroke="#333333" stroke-width="1.5">
+                        <path d="M19.3828571,24.32 C17.5542857,25.3257143 15.5428571,25.8742857 13.2571429,25.8742857 C6.21714286,25.8742857 0.457142857,20.2057143 0.457142857,13.1657143 C0.457142857,6.12571429 6.21714286,0.457142857 13.2571429,0.457142857 C20.2971429,0.457142857 26.0571429,6.12571429 26.0571429,13.1657143 C26.0571429,15.6342857 25.3257143,17.92 24.1371429,19.9314286 L25.7828571,26.0571429 L19.3828571,24.32 Z" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <circle id="Oval" cx="7.58857143" cy="13.44" r="1.55428571"></circle>
+                        <circle id="Oval" cx="13.5314286" cy="13.44" r="1.55428571"></circle>
+                        <circle id="Oval" cx="19.4742857" cy="13.44" r="1.55428571"></circle>
+                    </g>
+                    <rect id="Rectangle-path" x="0" y="0" width="32" height="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

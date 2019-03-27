@@ -1,0 +1,231 @@
+@media (max-width: 1199px){
+.list-inline-item:not(:last-child){
+	margin-right: 1px;
+}
+.site-coaches .site-coaches-item .rounded.bg-white {
+    width: 65%!important;
+}
+.site-footer h5{
+	font-size: 18px;
+}
+.navbar-light .navbar-toggler{
+    color: #ff4338;
+    border-color: #ff4338;
+}
+.navbar-light .navbar-toggler-icon{
+	color: #FFF;
+}
+.coches-list .container.w-75{
+	width: 100% !important;
+}
+.coatch-price {
+	font-size: 13px;
+}
+.coatch-price .h5{
+	font-size: 18px;
+}
+}
+
+
+@media (max-width: 991px){
+.site-coaches .site-coaches-item .rounded.bg-white {
+    width: 70%!important;
+    padding: 10px !important;
+}
+.homec_logs,
+.container.w-75{
+	width: 100% !important;
+}
+.homec_lan_part{
+	left: 15px;
+}
+.site-header{
+	position: relative;
+}
+.navbar-collapse{
+    position: absolute;
+    top: 86px;
+    width: 100%;
+    left: 0;
+    padding: 30px;
+    background: #000000e6;
+}
+.site-header.navbar-light .navbar-brand {
+    color: rgb(240, 78, 35);
+}
+.coaches_question .coaches_question_inner{
+	width: 100%;
+	padding: 20px 10px 0 320px;
+}
+.why_teach_container .px-4{
+	padding: 0 !important;
+}
+.why_teach_container .p-5{
+	padding: 20px !important;
+}
+.homec_lan_part_coach{
+	padding: 20px;
+}
+iframe{
+	width: 100%;
+}
+.coches-item .coches-item-left h4{
+	font-size: 20px;
+}
+.coches-item .coches-rating-left{
+	font-size: 12px;
+}
+.coches-item .coches-item-right{
+	font-size: 14px;
+}
+.coach-filter-form .nav-item > a{
+	padding: 10px 25px;
+}
+.small-schedule-hours{
+	height: 132px;
+}
+.small-schedule-cell {
+    height: 22px;
+}
+.homec_btn{
+	padding: 10px 20px 10px;
+}
+}
+
+
+
+@media (max-width: 767px){
+.site-footer .col{
+    width: 50%;
+    flex-basis: auto;
+}
+.homec_userbottom .homc_bottom{
+	width: 80%;
+	left: 0;
+	top: 20px;
+	padding-left: 20px;
+}
+.homec_lan_part {
+    position: relative;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    transform: inherit;
+}
+.homc_blank{
+	position: relative;
+}
+.coaches_question .coaches_question_inner{
+	background: #0071b9;
+	padding: 30px;
+	height: auto;
+}
+.search-form .form-control{
+    border-left: none!important;
+    float: left;
+}
+.coach-filter-form .dropdown-menu.show{
+	    margin-top: 5px;
+}
+.coach-filter-form .dropdown:last-child .dropdown-menu.show{
+	right: 0;
+	left: auto!important;
+}
+.coatch-price .h5 {
+    font-size: 16px;
+}
+}
+
+
+@media (max-width: 575px){
+.site-coaches .site-coaches-item .rounded.bg-white .col-sm-3{
+	width: 25%;
+}
+.site-coaches .site-coaches-item .rounded.bg-white .col-sm-9{
+	width: 75%;
+}
+.site-coaches .site-coaches-item .rounded.bg-white {
+  width: 50%!important;
+  right: 10px;
+  bottom: 10px;
+}
+.site-maiaworld-work .col-sm-6 {
+    margin-bottom: 15px;
+    padding: 25px 15px;
+    background: #EEE;
+    text-align: center !important;
+}
+.site-header .nav-item{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.site-header .nav-item:not(:last-child) a {
+    margin-right: 0;
+}
+.homec_logs .col{
+	flex-basis: auto;
+    width: 33%;
+    margin-bottom: 15px;
+}
+.homc_blank{
+	display: none;
+}
+.homec_Circle{
+	bottom: -16px;
+}
+.homec_logs{
+	margin-top: 30px !important;
+}
+.homec_lan_part{
+	padding-bottom: 40px;
+}
+.homec_userbottom .homc_bottom{
+	width: 100%;
+}
+.homec_lan_part .form-inline .input-group {
+    width: 100%;
+}
+.homec_lan_part_coach{
+	top: 15%;
+}
+.display-4 {
+    font-size: 2.5rem;
+}
+.coches-item .coches-rating-left {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+@media (max-width: 350px){
+.homec_lan_part_coach{
+	top: 10%;
+}
+.site-header img {
+    max-height: 46px;
+}
+.navbar-collapse {
+    top: 71px;
+}
+}
+
+
+
+@media (max-width: 319px){
+.site-footer .col {
+    width: 100%;
+}
+.coaches_question .coaches_question_inner{
+	padding: 20px;
+}
+.display-4 {
+    font-size: 2rem;
+}
+.homec_lan_part_coach {
+    top: 1%;
+}
+}
+}

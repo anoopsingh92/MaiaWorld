@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slider/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="slider/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/smallschedule.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Coaches List | MaiaWorld!!</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slider/owl.carousel.min.js"></script>
+    <script src="slider/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+  	<div class="page clearfix">
+  		<nav class="site-header site-header-coach bg-transparent navbar navbar-expand-lg navbar-light">
+		  	<div class="container-fluid">
+				  <a class="navbar-brand" href="index.html"><img src="img/coming-soon.png" title="MaiaWorld"><span class="pl-2">MaiaWorld</span></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="mr-auto w-100 nav justify-content-end text-uppercase">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Log In</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Sign Up</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="coach.html">Coach with Maia</a>
+				      </li>
+				    </ul>
+				  </div>
+				</div>
+			</nav>
+			<div class="coach-filter shadow border-top clearfix">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-8 py-3">
+							<form class="coach-filter-form" id="coach-filter-form" name="coach-filter" action="">
+								<div class="form-inline">
+									<ul class="nav nav-list">
+										<li class="nav-item dropdown">
+                      <a class="btn btn-outline-dark nav-link rounded-pill" data-toggle="dropdown" href="#">From</a>
+                      <div class="dropdown-menu border-0 shadow">
+									      <a class="dropdown-item" href="#">Link 1</a>
+									      <a class="dropdown-item" href="#">Link 2</a>
+									      <a class="dropdown-item" href="#">Link 3</a>
+									    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="btn btn-outline-dark nav-link rounded-pill" data-toggle="dropdown" href="#">Coach type</a>
+                      <div class="dropdown-menu border-0 shadow">
+									      <a class="dropdown-item" href="#">Skills</a>
+									      <a class="dropdown-item" href="#">Career</a>
+									      <a class="dropdown-item" href="#">LPersonal life</a>
+									      <a class="dropdown-item" href="#">Personal Skills</a>
+									      <a class="dropdown-item" href="#">Business life</a>
+									      <a class="dropdown-item" href="#">Business leadership</a>
+									      <a class="dropdown-item" href="#">Executive</a>
+									      <a class="dropdown-item" href="#">Confidence</a>
+									      <a class="dropdown-item" href="#">Team</a>
+									      <a class="dropdown-item" href="#">Health</a>
+									      <a class="dropdown-item" href="#">Leadership</a>
+									      <a class="dropdown-item" href="#">Financle</a>
+									      <a class="dropdown-item" href="#">NLP</a>
+									      <a class="dropdown-item" href="#">Recovery</a>
+									      <a class="dropdown-item" href="#">Relationships</a>
+									      <a class="dropdown-item" href="#">Small Business</a>
+									      <a class="dropdown-item" href="#">Wellness / Fitness</a>
+									      <a class="dropdown-item" href="#">Spiritual</a>
+									      <a class="dropdown-item" href="#">Dating</a>
+									    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="btn btn-outline-dark nav-link rounded-pill" data-toggle="dropdown" href="#">Price</a>
+                      <div class="dropdown-menu border-0 shadow">
+                      	<div class="price-range p-3" action="">
+	                      	<p class="h5 mb-4 font-weight-bold text-center">$20 - $400</p>
+                      		<input type="range" class="custom-range" id="price">
+                      	</div>
+									    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="btn btn-outline-dark nav-link rounded-pill" data-toggle="dropdown" href="#">Availability</a>
+                      <div class="dropdown-menu border-0 shadow">
+									      <a class="dropdown-item" href="#">Link 1</a>
+									      <a class="dropdown-item" href="#">Link 2</a>
+									      <a class="dropdown-item" href="#">Link 3</a>
+									    </div>
+                    </li>
+									</ul>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-4">
+							<form class="search-form clearfix">
+								<input type="text" name="search" class="form-control border-0" placeholder="Search Coach or skills">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="coches-list mt-5 clearfix">
+				<div class="container w-75">
+					<div class="clearfix mb-4 h4 font-weight-light"><strong>43</strong> coaches found</div>
+					<div class="coches-items clearfix">
+						<div class="coches-item rounded mb-4 mt-2 clearfix">
+							<div class="row no-gutters">
+								<div class="coches-item-left col-md-7 p-3 shadow rounded-left">
+									<div class="row">
+										<div class="col-md-3 col-sm-3">
+											<img class="rounded-circle shadow p-1" src="img/16T028378030_Avatar.jpg" alt="Avatar">
+										</div>
+										<div class="col-md-7 col-sm-7">
+											<h4><a href="coach-details.html" class="text-reset text-decoration-none">Professor Ashish IELTS/TOEFL/BUSINESS <span class="flag-in"></span></a></h4>
+											<div class="small text-muted text-uppercase mb-2">Professional coach</div>
+											<div class="red-seprator mb-2 clearfix"></div>
+											<div class="small text-muted text-uppercase clearfix">Teaches</div>
+											<div class="mb-2 clearfix">English, Hindi, Sanskrit, Portuguese</div>
+										</div>
+										<div class="col-md-2 col-sm-2 text-center">
+											<a class="d-inline-block px-1" href="#"><img src="img/icon-favourite.svg" alt="icon-favourite"></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-3 coches-rating-left">
+											<div class="stars-box text-warning">
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+											</div>
+											<div class="small">1176 LESSONS</div>
+										</div>
+										<div class="col-md-9 col-sm-9 coches-rating-right">
+											<div class="small text-muted text-uppercase">ALSO SPEAKS</div>
+											<div class="mb-3 clearfix">Italian, Spanish, French, Chinese (Mandarin), Japanese</div>
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Hourly Rate From</div>
+													<div class="mb-2 clearfix">USD 15.00</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Trail</div>
+													<div class="mb-2 clearfix">USD 6.00</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="coches-item-right col-md-5 p-3 shadow rounded-right">
+									<ul class="coches-tabs nav justify-content-center">
+									  <li class="nav-item">
+									    <a class="nav-link active" data-toggle="tab" href="#Video1">Video</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Intro1">Intro</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Calendar1">Calendar</a>
+									  </li>
+									</ul>
+									<div class="tab-content">
+									  <div class="tab-pane active" id="Video1">
+									  	<iframe title="video" width="343" height="193" src="https://www.youtube.com/embed/b62cqnOqEZg?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+									  </div>
+									  <div class="tab-pane" id="Intro1">
+									  	<p class="text-muted">Hi, I am a Professional Urdu Tutor have been teaching Since 2015. How I teach a new Student? I start with basic rules & grammar because I believe (on behalf of my 3 years experience) that to teach only specific phrases are not useful to learn Urdu language but it's waste of time. Therefore, I teach structure of Sentences using basic & si ...<a href="coach-details.html" title="Read More">Read More</a></p>
+									  </div>
+									  <div class="tab-pane" id="Calendar1">
+											<div class="small-schedule">
+											  <div class="small-schedule-days">
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>W</span></p>
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>F</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>M</span></p>
+											  </div>
+											  <div class="small-schedule-hours">
+											    <div class="small-schedule-range">
+											      <p>00 - 04</p>
+											      <p>04 - 08</p>
+											      <p>08 - 12</p>
+											      <p>12 - 16</p>
+											      <p>16 - 20</p>
+											      <p>20 - 24</p>
+											    </div>
+											    <div class="small-schedule-hour">
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											    </div>
+											  </div>
+											  <p class="small-schedule-timezone"><span class="user-based-timezone"><span>Based on your timezone</span> (UTC+05:30)</span></p>
+											</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="coches-item rounded mb-4 mt-2 clearfix">
+							<div class="row no-gutters">
+								<div class="coches-item-left col-md-7 p-3 shadow rounded-left">
+									<div class="row">
+										<div class="col-md-3 col-sm-3">
+											<img class="rounded-circle shadow p-1" src="img/3T049145380_Avatar.jpg" alt="Avatar">
+										</div>
+										<div class="col-md-7 col-sm-7">
+											<h4><a href="coach-details.html" class="text-reset text-decoration-none">Muhammad <span class="flag-in"></span></a></h4>
+											<div class="small text-muted text-uppercase mb-2">Professional coach</div>
+											<div class="red-seprator mb-2 clearfix"></div>
+											<div class="small text-muted text-uppercase clearfix">Teaches</div>
+											<div class="mb-2 clearfix">Hindi, Urdu</div>
+										</div>
+										<div class="col-md-2 col-sm-2 text-center">
+											<a class="d-inline-block px-1" href="#"><img src="img/icon-favourite.svg" alt="icon-favourite"></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-3 coches-rating-left">
+											<div class="stars-box text-warning">
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+											</div>
+											<div class="small">156 LESSONS</div>
+										</div>
+										<div class="col-md-9 col-sm-9 coches-rating-right">
+											<div class="small text-muted text-uppercase">ALSO SPEAKS</div>
+											<div class="mb-3 clearfix">English, Indonesian, Arabic</div>
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Hourly Rate From</div>
+													<div class="mb-2 clearfix">USD 8.00</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Trail</div>
+													<div class="mb-2 clearfix">USD 2.00</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="coches-item-right col-md-5 p-3 shadow rounded-right">
+									<ul class="coches-tabs nav justify-content-center">
+									  <li class="nav-item">
+									    <a class="nav-link active" data-toggle="tab" href="#Video2">Video</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Intro2">Intro</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Calendar2">Calendar</a>
+									  </li>
+									</ul>
+									<div class="tab-content">
+									  <div class="tab-pane active" id="Video2">
+									  	<iframe title="video" width="343" height="193" src="https://www.youtube.com/embed/jX8RId3o2AU?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+									  </div>
+									  <div class="tab-pane" id="Intro2">
+									  	<p class="text-muted">Hi, I am a Professional Urdu Tutor have been teaching Since 2015. How I teach a new Student? I start with basic rules & grammar because I believe (on behalf of my 3 years experience) that to teach only specific phrases are not useful to learn Urdu language but it's waste of time. Therefore, I teach structure of Sentences using basic & si ...<a href="coach-details.html" title="Read More">Read More</a></p>
+									  </div>
+									  <div class="tab-pane" id="Calendar2">
+											<div class="small-schedule">
+											  <div class="small-schedule-days">
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>W</span></p>
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>F</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>M</span></p>
+											  </div>
+											  <div class="small-schedule-hours">
+											    <div class="small-schedule-range">
+											      <p>00 - 04</p>
+											      <p>04 - 08</p>
+											      <p>08 - 12</p>
+											      <p>12 - 16</p>
+											      <p>16 - 20</p>
+											      <p>20 - 24</p>
+											    </div>
+											    <div class="small-schedule-hour">
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											    </div>
+											  </div>
+											  <p class="small-schedule-timezone"><span class="user-based-timezone"><span>Based on your timezone</span> (UTC+05:30)</span></p>
+											</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="coches-item rounded mb-4 mt-2 clearfix">
+							<div class="row no-gutters">
+								<div class="coches-item-left col-md-7 p-3 shadow rounded-left">
+									<div class="row">
+										<div class="col-md-3 col-sm-3">
+											<img class="rounded-circle shadow p-1" src="img/16T028378030_Avatar.jpg" alt="Avatar">
+										</div>
+										<div class="col-md-7 col-sm-7">
+											<h4><a href="coach-details.html" class="text-reset text-decoration-none">Professor Ashish IELTS/TOEFL/BUSINESS <span class="flag-in"></span></a></h4>
+											<div class="small text-muted text-uppercase mb-2">Professional coach</div>
+											<div class="red-seprator mb-2 clearfix"></div>
+											<div class="small text-muted text-uppercase clearfix">Teaches</div>
+											<div class="mb-2 clearfix">English, Hindi, Sanskrit, Portuguese</div>
+										</div>
+										<div class="col-md-2 col-sm-2 text-center">
+											<a class="d-inline-block px-1" href="#"><img src="img/icon-favourite.svg" alt="icon-favourite"></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-3 coches-rating-left">
+											<div class="stars-box text-warning">
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+											</div>
+											<div class="small">1176 LESSONS</div>
+										</div>
+										<div class="col-md-9 col-sm-9 coches-rating-right">
+											<div class="small text-muted text-uppercase">ALSO SPEAKS</div>
+											<div class="mb-3 clearfix">Italian, Spanish, French, Chinese (Mandarin), Japanese</div>
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Hourly Rate From</div>
+													<div class="mb-2 clearfix">USD 15.00</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Trail</div>
+													<div class="mb-2 clearfix">USD 6.00</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="coches-item-right col-md-5 p-3 shadow rounded-right">
+									<ul class="coches-tabs nav justify-content-center">
+									  <li class="nav-item">
+									    <a class="nav-link active" data-toggle="tab" href="#Video3">Video</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Intro3">Intro</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Calendar3">Calendar</a>
+									  </li>
+									</ul>
+									<div class="tab-content">
+									  <div class="tab-pane active" id="Video3">
+									  	<iframe title="video" width="343" height="193" src="https://www.youtube.com/embed/b62cqnOqEZg?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+									  </div>
+									  <div class="tab-pane" id="Intro3">
+									  	<p class="text-muted">Hi, I am a Professional Urdu Tutor have been teaching Since 2015. How I teach a new Student? I start with basic rules & grammar because I believe (on behalf of my 3 years experience) that to teach only specific phrases are not useful to learn Urdu language but it's waste of time. Therefore, I teach structure of Sentences using basic & si ...<a href="coach-details.html" title="Read More">Read More</a></p>
+									  </div>
+									  <div class="tab-pane" id="Calendar3">
+											<div class="small-schedule">
+											  <div class="small-schedule-days">
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>W</span></p>
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>F</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>M</span></p>
+											  </div>
+											  <div class="small-schedule-hours">
+											    <div class="small-schedule-range">
+											      <p>00 - 04</p>
+											      <p>04 - 08</p>
+											      <p>08 - 12</p>
+											      <p>12 - 16</p>
+											      <p>16 - 20</p>
+											      <p>20 - 24</p>
+											    </div>
+											    <div class="small-schedule-hour">
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											    </div>
+											  </div>
+											  <p class="small-schedule-timezone"><span class="user-based-timezone"><span>Based on your timezone</span> (UTC+05:30)</span></p>
+											</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="coches-item rounded mb-4 mt-2 clearfix">
+							<div class="row no-gutters">
+								<div class="coches-item-left col-md-7 p-3 shadow rounded-left">
+									<div class="row">
+										<div class="col-md-3 col-sm-3">
+											<img class="rounded-circle shadow p-1" src="img/3T049145380_Avatar.jpg" alt="Avatar">
+										</div>
+										<div class="col-md-7 col-sm-7">
+											<h4><a href="coach-details.html" class="text-reset text-decoration-none">Muhammad <span class="flag-in"></span></a></h4>
+											<div class="small text-muted text-uppercase mb-2">Professional coach</div>
+											<div class="red-seprator mb-2 clearfix"></div>
+											<div class="small text-muted text-uppercase clearfix">Teaches</div>
+											<div class="mb-2 clearfix">Hindi, Urdu</div>
+										</div>
+										<div class="col-md-2 col-sm-2 text-center">
+											<a class="d-inline-block px-1" href="#"><img src="img/icon-favourite.svg" alt="icon-favourite"></a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3 col-sm-3 coches-rating-left">
+											<div class="stars-box text-warning">
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+												<span class="fa fa-star"></span>
+											</div>
+											<div class="small">156 LESSONS</div>
+										</div>
+										<div class="col-md-9 col-sm-9 coches-rating-left">
+											<div class="small text-muted text-uppercase">ALSO SPEAKS</div>
+											<div class="mb-3 clearfix">English, Indonesian, Arabic</div>
+											<div class="row">
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Hourly Rate From</div>
+													<div class="mb-2 clearfix">USD 8.00</div>
+												</div>
+												<div class="col-md-6 col-sm-6">
+													<div class="small text-muted text-uppercase">Trail</div>
+													<div class="mb-2 clearfix">USD 2.00</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="coches-item-right col-md-5 p-3 shadow rounded-right">
+									<ul class="coches-tabs nav justify-content-center">
+									  <li class="nav-item">
+									    <a class="nav-link active" data-toggle="tab" href="#Video4">Video</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Intro4">Intro</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link" data-toggle="tab" href="#Calendar4">Calendar</a>
+									  </li>
+									</ul>
+									<div class="tab-content">
+									  <div class="tab-pane active" id="Video4">
+									  	<iframe title="video" width="343" height="193" src="https://www.youtube.com/embed/jX8RId3o2AU?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+									  </div>
+									  <div class="tab-pane" id="Intro4">
+									  	<p class="text-muted">Hi, I am a Professional Urdu Tutor have been teaching Since 2015. How I teach a new Student? I start with basic rules & grammar because I believe (on behalf of my 3 years experience) that to teach only specific phrases are not useful to learn Urdu language but it's waste of time. Therefore, I teach structure of Sentences using basic & si ...<a href="coach-details.html" title="Read More">Read More</a></p>
+									  </div>
+									  <div class="tab-pane" id="Calendar4">
+											<div class="small-schedule">
+											  <div class="small-schedule-days">
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>W</span></p>
+											    <p class="small-schedule-day"><span>T</span></p>
+											    <p class="small-schedule-day"><span>F</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>S</span></p>
+											    <p class="small-schedule-day"><span>M</span></p>
+											  </div>
+											  <div class="small-schedule-hours">
+											    <div class="small-schedule-range">
+											      <p>00 - 04</p>
+											      <p>04 - 08</p>
+											      <p>08 - 12</p>
+											      <p>12 - 16</p>
+											      <p>16 - 20</p>
+											      <p>20 - 24</p>
+											    </div>
+											    <div class="small-schedule-hour">
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											      <div class="small-schedule-section">
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											        <div class="small-schedule-cell"></div>
+											        <div class="small-schedule-cell"><div class="small-schedule-cell-active"></div></div>
+											      </div>
+											    </div>
+											  </div>
+											  <p class="small-schedule-timezone"><span class="user-based-timezone"><span>Based on your timezone</span> (UTC+05:30)</span></p>
+											</div>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="site-footer bg-dark py-4 clearfix">
+				<div class="container">
+					<div class="row">
+					  <div class="col">
+					    <h5 class="text-white">Language Coaches</h5>
+					    <ul class="list-unstyled">
+					      <li><a href="#">English Coaches</a></li>
+					      <li><a href="#">Chinese (Mandarin) Coaches</a></li>
+					      <li><a href="#">French Coaches</a></li>
+					      <li><a href="#">Spanish Coaches</a></li>
+					      <li><a href="#">Portuguese Coaches</a></li>
+					      <li><a href="#">German Coaches</a></li>
+					      <li><a href="#">Japanese Coaches</a></li>
+					      <li><a href="#">Korean Coaches</a></li>
+					      <li><a href="#">Arabic Coaches</a></li>
+					      <li><a href="#">Hindi Coaches</a></li>
+					      <li><a href="#">Italian Coaches</a></li>
+					      <li><a href="#">Russian Coaches</a></li>
+					    </ul>
+					  </div>
+					  <div class="col">
+					    <h5 class="text-white">Learn a language</h5>
+					    <ul class="list-unstyled">
+					      <li><a href="#">Learn English</a></li>
+					      <li><a href="#">Learn Chinese (Mandarin)</a></li>
+					      <li><a href="#">Learn French</a></li>
+					      <li><a href="#">Learn Spanish</a></li>
+					      <li><a href="#">Learn Portuguese</a></li>
+					      <li><a href="#">Learn German</a></li>
+					      <li><a href="#">Learn Japanese</a></li>
+					      <li><a href="#">Learn Korean</a></li>
+					      <li><a href="#">Learn Arabic</a></li>
+					      <li><a href="#">Learn Hindi</a></li>
+					      <li><a href="#">Learn Italian</a></li>
+					      <li><a href="#">Learn Russian</a></li>
+					    </ul>
+					  </div>
+					  <div class="col">
+					    <h5 class="text-white">Browse</h5>
+					    <ul class="list-unstyled">
+					      <li><a href="#">Professional Coaches</a></li>
+					      <li><a href="#">Community Tutors</a></li>
+					      <li><a href="#">Language Partners</a></li>
+					      <li><a href="#">Articles</a></li>
+					      <li><a href="#">Notebook</a></li>
+					      <li><a href="#">Answers</a></li>
+					      <li><a href="#">Discussions</a></li>
+					    </ul>
+					  </div>
+					  <div class="col">
+					    <h5 class="text-white">Get Help</h5>
+					    <ul class="list-unstyled">
+					      <li><a href="#">Help and Support</a></li>
+					      <li><a href="#">Language Lessons</a></li>
+					      <li><a href="#">Language Exchange</a></li>
+					      <li><a href="#">Billing &amp; Payments</a></li>
+					      <li><a href="#">coach Resources</a></li>
+					    </ul>
+					  </div>
+					  <div class="col">
+					    <h5 class="text-white">More</h5>
+					    <ul class="list-unstyled">
+					      <li><a href="#">Test your English level!</a></li>
+					      <li><a href="#">Become a coach on italki</a></li>
+					      <li><a href="#">Buy a Gift Card</a></li>
+					      <li><a href="#">Refer friends to italki and earn bonus</a></li>
+					      <li><a href="#">italki Business</a></li>
+					      <li><a href="#">italki Apps</a></li>
+					      <li><a href="#">Partnership Program</a></li>
+					      <li><a href="#">Affiliate Program</a></li>
+					    </ul>
+					  </div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-lg-9">
+							<ul class="list-inline">
+								<li class="list-inline-item">© 2018 italki HK Limited.</li>
+								<li class="list-inline-item"><a href="#">About</a></li>
+								<li class="list-inline-item"><a href="#">Press</a></li>
+								<li class="list-inline-item"><a href="#">Contact</a></li>
+								<li class="list-inline-item"><a href="#">Support</a></li>
+								<li class="list-inline-item"><a href="#">Blog</a></li>
+								<li class="list-inline-item"><a href="#">Stories</a></li>
+								<li class="list-inline-item"><a href="#">Jobs</a></li>
+								<li class="list-inline-item"><a href="#">Terms</a></li>
+								<li class="list-inline-item"><a href="#">Privacy</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-lg-3">
+						  <ul class="list-inline social-icons-list">
+						    <li class="list-inline-item">
+						    	<a href="http://www.facebook.com/italkilanguages" target="_blank">
+						    		<img src="img/icons-11.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						    <li class="list-inline-item">
+						    	<a href="http://twitter.com/italki" target="_blank">
+						    		<img src="img/icons-12.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						    <li class="list-inline-item">
+						    	<a href="https://www.instagram.com/italki/" target="_blank">
+						    		<img src="img/icons-13.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						    <li class="list-inline-item">
+						    	<a href="https://vk.com/italkiru" target="_blank">
+						    		<img src="img/icons-14.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						    <li class="list-inline-item">
+						    	<a href="https://www.youtube.com/user/italkilanguage" target="_blank">
+						    		<img src="img/icons-15.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						    <li class="list-inline-item">
+						    	<a href="http://weibo.com/italki" target="_blank">
+						    		<img src="img/icons-16.svg" style="width:30px;height:30px">
+						    	</a>
+						    </li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </body>
+</html>

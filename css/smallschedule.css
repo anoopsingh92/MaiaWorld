@@ -1,0 +1,145 @@
+.small-schedule-days {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5px;
+  padding-left: 70px;
+}
+.small-schedule-day {
+  -ms-flex: 1 1;
+      flex: 1 1;
+      margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+  color: #333333;
+  text-align: center;
+}
+.small-schedule-hours {
+  display: -ms-flexbox;
+  display: flex;
+  height: 156px;
+}
+.small-schedule-range {
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid  #dddddd;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.small-schedule-range > p {
+  -ms-flex: 1 1;
+      flex: 1 1;
+      margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  color: #333333;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.small-schedule-hour {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  display: -ms-flexbox;
+  display: flex;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.small-schedule-section {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.small-schedule-cell {
+  height: 26px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.small-schedule-cell:nth-child(6) {
+  border-bottom: 1px solid #dddddd;
+}
+.small-schedule-section:nth-child(7) .small-schedule-cell {
+  border-right: 1px solid #dddddd;
+}
+.small-schedule-cell-tooltip-ref {
+  width: 100%;
+  height: 100%;
+}
+.small-schedule-cell-active {
+  height: 100%;
+  width: 100%;
+  background: #7ec937;
+}
+.small-schedule-timezone {
+  margin-top: 8px;
+  font-size: 10px;
+  color: #777777;
+  text-align: center;
+}
+
+.small-schedule-day-fromTeacherProfile1 {
+  margin-bottom: 3px;
+}
+.small-schedule-button,
+.small-schedule-button-mobile,
+.small-schedule-button-table {
+  /* width: 327px; */
+  height: 42px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: solid 1px #333333;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+}
+.small-schedule-button {
+  width: 327px;
+}
+.small-schedule-button-mobile {
+  width: 100%;
+  max-width: 280px;
+  height: 36px;
+}
+.small-schedule-button-table {
+  /* width: 280px; */
+  height: 36px;
+  padding: 0 12px;
+}
+.flex-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.small-schedule .small-schedule-section .small-schedule-cell:last-child{  
+  border-bottom: 1px solid #dddddd;
+}
+.small-schedule .small-schedule-section:nth-child(7) .small-schedule-cell:first-child {
+  border-top-right-radius: 3px;
+}
+.small-schedule .small-schedule-section:nth-child(7) .small-schedule-cell:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+
+// WEBPACK FOOTER //
+// ./src/components/SmallSchedule/smallschedule.css
