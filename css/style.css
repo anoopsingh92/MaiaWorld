@@ -18,15 +18,14 @@ img{
 	z-index: 3;
 }
 .site-header .nav-item a{
-  border-radius: 18px;
-  border: solid 1px #fff;
+  border: solid 1px #257b52;
   padding: 5px 13px;
-  color: #FFF;
+  color: #257b52;
 }
 .site-header .nav-item a:hover,
 .site-header .nav-item a:focus{
-	background: #FFF;
-	color: #333;
+	background: #257b52;
+	color: #FFF;
 }
 .site-header .nav-item:not(:last-child) a{
   margin-right: 25px;
@@ -74,8 +73,9 @@ img{
     left: 100px;
     z-index: 3;
     top: 50%;
-    transform: translate(0,-50%);
-    width: 500px;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%,-50%);
 }
 .homec_lan_part p{
 	font-size:16px;
@@ -90,7 +90,7 @@ img{
     background-image: linear-gradient(to bottom,#ff786b,#ff4338);
 }
 .homec_lan_part .form-inline .input-group{
-	width: 75%;
+	width: 100%;
 }
 .homc_blank {
     bottom: -2px;
@@ -165,7 +165,7 @@ img{
 }
 .homec_btn {
     border-radius: 4px;
-    background-image: linear-gradient(to bottom,#ff786b,#ff4338);
+    background-image: linear-gradient(to bottom,#72A990,#056839);
     padding: 15px 20px 14px;
     font-size: 18px;
     border: none;
