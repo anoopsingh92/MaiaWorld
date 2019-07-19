@@ -37,25 +37,26 @@ img{
     position: relative;
 }
 .site-header-coach .nav-item a{
-    color: #f04e23;
-    border-color: #f04e23;
+    color: #257b52;
+    border-color: #257b52;
 }
 .site-header-coach .nav-item a:hover{
     color: #FFF;
-    background: #f04e23;
+    background: #257b52;
 }
 .site-header-coach.navbar-light .navbar-brand {
-    color: #f04e23;
+    color: #257b52;
 }
 .homec_lan_part_coach{
     width: 100%;
     top: 30%;
     position: absolute;
+    z-index: 1;
 }
 .hero_img_coach {
     padding-top: 190px;
     height: 600px;
-    background: url(../img/hero_coach.jpg) no-repeat 0% 50%;
+    background: url(../img/white-marble-background-tumblr_2397530.jpg) no-repeat 0% 50%;
     background-size: cover;
     margin-bottom: -130px;
 }
@@ -176,14 +177,14 @@ img{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
     transition: box-shadow .4s ease-in-out;
 }
-.homec_userbottom .homec_stripe_four {
+.site-footer .homec_stripe_four {
     width: 100%;
     position: absolute;
-    bottom: -4px;
+    top: -4px;
     font-size: 0;
     height: 4px;
 }
-.homec_userbottom .homec_stripe_four span{
+.site-footer .homec_stripe_four span{
 	height: 4px;
 }
 .site-coaches .site-coaches-item .rounded.bg-white {
@@ -251,7 +252,7 @@ img{
 }
 .coches-tabs li a:hover,
 .coches-tabs li a.active{
-  border-bottom: 2px solid #f04e23;
+  border-bottom: 2px solid #257b52;
 }
 .coach-filter-form .nav-item:not(:last-child){
   margin-right: 13px;
@@ -291,7 +292,7 @@ img{
 }
 .coach-filter-form .dropdown-item.active,
 .coach-filter-form .dropdown-item:active {
-    background-color: #f04e23;
+    background-color: #257b52;
 }
 .coatch-detail-right-sidebar .coatch-price a:hover{
   text-decoration: none;
@@ -302,4 +303,8 @@ img{
 }
 .coatch-price img{
   width: 18px;
+}
+.btn-success {
+    background-color: #257B52;
+    border-color: #257B52;
 }
