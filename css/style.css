@@ -204,14 +204,11 @@ img{
     background: linear-gradient(to bottom, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 16%);
 }
 .coaches_question .coaches_question_inner{
-    padding: 60px 0;
+    padding: 60px;
     background: #0071b9 url(../img/white-marble-background-tumblr_2397530.jpg);
 }
 .coaches_question .coaches_question_inner .position-relative{
 	z-index: 1;
-}
-.coaches_question .coaches_question_inner .position-relative img{
-	width: 15%;
 }
 .red-seprator{
   width: 20px;
