@@ -8,7 +8,7 @@ img{
 	max-width: 100%;
 }
 .site-header img{
-	max-height: 60px;
+	max-height: 75px;
 }
 .site-header{
 	position: absolute;
@@ -18,7 +18,6 @@ img{
 	z-index: 3;
 }
 .site-header .nav-item a{
-  border: solid 1px #257b52;
   padding: 5px 13px;
   color: #257b52;
 }
@@ -29,9 +28,6 @@ img{
 }
 .site-header .nav-item:not(:last-child) a{
   margin-right: 25px;
-}
-.site-header.navbar-light .navbar-brand {
-    color: rgb(255, 255, 255);
 }
 .site-header-coach{
     position: relative;
@@ -75,7 +71,7 @@ img{
     z-index: 3;
     top: 50%;
     left: 50%;
-    width: 50%;
+    width: 35%;
     transform: translate(-50%,-50%);
 }
 .homec_lan_part p{
@@ -208,11 +204,14 @@ img{
     background: linear-gradient(to bottom, rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 16%);
 }
 .coaches_question .coaches_question_inner{
-    height: 230px;
-    width: 920px;
-    margin:0 auto;
-    padding: 40px 110px 0 330px;
-    background: #0071b9 url(../img/bg_question.png);
+    padding: 60px 0;
+    background: #0071b9 url(../img/white-marble-background-tumblr_2397530.jpg);
+}
+.coaches_question .coaches_question_inner .position-relative{
+	z-index: 1;
+}
+.coaches_question .coaches_question_inner .position-relative img{
+	width: 15%;
 }
 .red-seprator{
   width: 20px;
